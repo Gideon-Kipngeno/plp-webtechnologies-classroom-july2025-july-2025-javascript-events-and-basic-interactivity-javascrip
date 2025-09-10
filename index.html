@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gideon Kipngeno | Developer </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Gideon Kipngeno</h1>
+    <p>Community-Driven Developer | JavaScript & Python Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="toggleMode">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about"> 
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate software developer based in Nairobi, Kenya. I specialize in building educational tools, debugging apps, and collaborative coding experiences. My work blends Ubuntu values—community, clarity, and generosity—with practical, scalable code.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <h3>Loop Debugger Challenge App</h3>
+        <p>A game that teaches JavaScript loops interactively.</p>
+      </div>
+      <div class="project-card">
+        <h3>Smart Calculator</h3>
+        <p>Full-featured calculator with memory, history, and keyboard support.</p>
+      </div>
+      <div class="project-card">
+        <h3>Ubuntu Image Fetcher</h3>
+        <p>Python tool that fetches and displays images using requests.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript (DOM, Events, ES6+)</li>
+        <li>Python (Requests, Debugging)</li>
+        <li>HTML & CSS (Responsive Design)</li>
+        <li>Project-Based Learning & Collaboration</li>
+      </ul>
+    </section>
+    <section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+        <button class="faq-question">What languages do you use?</button>
+        <div class="faq-answer">I use JavaScript, Python, HTML, and CSS.</div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">Do you work on open source?</button>
+        <div class="faq-answer">Yes, I love collaborating on open source projects.</div>
+    </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label>Name:<br /><input type="text" id="name" /></label><br />
+        <label>Email:<br /><input type="email" id="email" /></label><br />
+        <label>Message:<br /><textarea id="message"></textarea></label><br />
+        <button type="submit">Send Message</button>
+        <p id="formFeedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Gideon Kipngeno. Built with Ubuntu spirit and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
